@@ -1,9 +1,8 @@
-package semana2.biblioteca;
 
-import java.io.Serializable;
 import java.util.ArrayList;
 
-public class Usuario implements Serializable {
+public class Usuario {
+
     private String nome;
     private int id;
     private ArrayList<Livro> livrosEmprestados;
